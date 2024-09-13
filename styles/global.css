@@ -1,3 +1,7 @@
+@import './header.css';
+@import './main.css';
+@import './footer.css';
+
 *,
 *::before,
 *::after {
@@ -5,7 +9,7 @@
 }
 
 body {
-  width: 1100px;
+  width: 100%;
   margin: 0 auto;
   font-family: Raleway, sans-serif;
 }
@@ -26,9 +30,27 @@ blockquote {
 }
 
 a {
+  text-decoration: underline;
   color: inherit;
+  text-underline-offset: 4px;
 }
 
 img {
   width: 100%;
+}
+
+.container { 
+  margin: 0 50px;
+}
+
+a.active {
+  text-decoration: none;
+}
+
+.title-2 {
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 0%;
+  text-transform: uppercase;
 }

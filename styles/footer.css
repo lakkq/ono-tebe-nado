@@ -1,0 +1,27 @@
+.footer {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  margin: 180px 0 0;
+  padding: 0 0 88px;
+}
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__nav {
+  text-align: center;
+}
+.footer__contacts {
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+}
+.footer__contacts-item {
+  width: 48px;
+  height: 48px;
+}
+.footer__contacts-item-img {
+  width: 100%;
+  height: 100%;
+}
