@@ -1,0 +1,19 @@
+@import './header.css';
+@import './main.css';
+@import './footer.css';
+
+.container { 
+    margin: 0 50px;
+  }
+  
+  a.active {
+    text-decoration: none;
+  }
+  
+  .title-2 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+  }
