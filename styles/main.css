@@ -1,5 +1,5 @@
 .cover {
-  background: url("../images/cover.jpg") no-repeat;
+  background: url("../images/cover.jpg") no-repeat center;
   background-size: cover;
   color: rgb(255, 255, 255);
 }
@@ -13,7 +13,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 0 135px;
+  margin: 0 0 119px;
 }
 .cover__title-row h1 {
   font-weight: 700;
@@ -25,15 +25,19 @@
   word-spacing: -22px;
 }
 .cover__title {
-  margin: 0 0 50px;
+  margin: 0 0 13px 0;
+  transform: translate(-30px, 0);
 }
 .cover__title:first-child {
   align-self: self-start;
+  margin: 0 0 13px;
+  transform: none;
 }
 .cover__title:last-child {
   align-self: self-end;
   margin: 0 -29px 0 0;
   text-align: right;
+  transform: translate(-5px, -8px);
 }
 .cover__description {
   display: flex;
@@ -45,7 +49,8 @@
   position: relative;
 }
 .cover__description-text {
-  word-spacing: 21px;
+  word-spacing: 19px;
+  margin-left: 27px;
 }
 .cover__description-button {
   width: 256px;
@@ -68,10 +73,10 @@
 }
 
 .lots {
-  margin: 180px 0 146px;
+  margin: 184px 0 185px;
 }
 .lots__title {
-  margin: 0 0 35px;
+  margin: 0 0 30px 13px;
 }
 .lots__list {
   display: flex;
@@ -86,17 +91,18 @@
   font-weight: 400;
   text-underline-offset: 5px;
   text-decoration-thickness: 1px;
+  margin: 0 0 0 14px;
 }
 
 .lot {
   color: rgb(255, 255, 255);
-  background-size: cover;
+  background-size: contain;
 }
 .lot__overlay {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 50px 40px;
+  padding: 49px 40px;
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
 }
@@ -117,20 +123,23 @@
 
 #lot-1 {
   background: url("../images/card-lot-01.jpg") center;
+  background-size: cover;
 }
 
 #lot-2 {
   background: url("../images/card-lot-02.jpg") center;
+  background-size: cover;
 }
 
 #lot-3 {
   background: url("../images/card-lot-03.jpg") center;
+  background-size: cover;
 }
 
 .info__row {
   display: flex;
   gap: 72px;
-  margin: 35px 0 0;
+  margin: 35px 0 0 20px;
 }
 .info__logo {
   background-color: black;
@@ -145,10 +154,10 @@
   height: 100%;
 }
 .info__main {
-  margin: 101px 0 0;
+  margin: 106px 0 0;
 }
 .info__title {
-  margin: 0 0 92px;
+  margin: 0 0 102px;
 }
 .info__text {
   font-size: 20px;

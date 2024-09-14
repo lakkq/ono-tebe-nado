@@ -1,5 +1,5 @@
 .cover {
-    background: url("../images/cover.jpg") no-repeat;
+    background: url("../images/cover.jpg") no-repeat center;
     background-size: cover;
     color: rgb(255, 255, 255);
 
@@ -14,7 +14,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 0 0 135px;
+        margin: 0 0 119px;
 
         h1 {
             font-weight: 700;
@@ -28,16 +28,20 @@
     }
 
     &__title {
-        margin: 0 0 50px;
+        margin: 0 0 13px 0;
+        transform: translate(-30px, 0);
 
         &:first-child {
             align-self: self-start;
+            margin: 0 0 13px;
+            transform: none;
         }
 
         &:last-child {
             align-self: self-end;
             margin: 0 -29px 0 0;
             text-align: right;
+            transform: translate(-5px, -8px);
         }
     }
 
@@ -53,7 +57,8 @@
     }
 
     &__description-text {
-        word-spacing: 21px;
+        word-spacing: 19px;
+        margin-left: 27px;
     }
 
     &__description-button {
@@ -82,10 +87,10 @@
 }
 
 .lots {
-    margin: 180px 0 146px;
+    margin: 184px 0 185px;
 
     &__title {
-        margin: 0 0 35px;
+        margin: 0 0 30px 13px;
     }
 
     &__list {
@@ -102,20 +107,21 @@
         font-size: 20px;
         font-weight: 400;
         text-underline-offset: 5px;
-        text-decoration-thickness: 1px
+        text-decoration-thickness: 1px;
+        margin: 0 0 0 14px;
     }
 }
 
 .lot {
     color: rgb(255, 255, 255);
 
-    background-size: cover;
+    background-size: contain;
 
     &__overlay {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: 50px 40px;
+        padding: 49px 40px;
         height: 100%;
 
         background: rgba(0, 0, 0, 0.6);
@@ -140,21 +146,24 @@
 
 #lot-1 {
     background: url('../images/card-lot-01.jpg') center;
+    background-size: cover;
 }
 
 #lot-2 {
     background: url('../images/card-lot-02.jpg') center;
+    background-size: cover;
 }
 
 #lot-3 {
     background: url('../images/card-lot-03.jpg') center;
+    background-size: cover;
 }
 
 .info {
     &__row {
         display: flex;
         gap: 72px;
-        margin: 35px 0 0;
+        margin: 35px 0 0 20px;
     }
 
     &__logo {
@@ -172,11 +181,11 @@
     }
 
     &__main {
-        margin: 101px 0 0;
+        margin: 106px 0 0;
     }
 
     &__title {
-        margin: 0 0 92px;
+        margin: 0 0 102px;
     }
 
     &__text {
