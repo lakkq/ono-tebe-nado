@@ -5,8 +5,8 @@
 }
 
 body {
-  width: 1100px;
-  margin: 0;
+  width: 1100px !important;
+  margin: 0 auto !important;
   font-family: Raleway, sans-serif;
 }
 
