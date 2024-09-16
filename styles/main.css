@@ -84,9 +84,9 @@
   text-decoration: none;
 }
 .lots__list-item {
-  flex: 1 1 0px;
+  flex: 1 0 334px;
   min-height: 560px;
-  max-width: 50%;
+  max-width: 334px;
   transition-duration: 200ms;
 }
 .lots__list-item:hover {
